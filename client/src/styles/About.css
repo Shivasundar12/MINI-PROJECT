@@ -1,0 +1,10 @@
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
