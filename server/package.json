@@ -1,8 +1,10 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,10 +12,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "ai": "^5.0.5",
-    "cohere-ai": "^7.18.0",
+    "axios": "^1.12.2",
+    "cohere-ai": "^7.19.0",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "open": "^10.2.0",
     "openai": "^5.12.0"
